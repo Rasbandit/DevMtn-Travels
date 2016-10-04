@@ -6,7 +6,7 @@ angular.module('devmtnTravel', ['ui.router'])
                 templateUrl: "../views/about.html"
             })
             .state('adventurers',{
-                url:'/adventurers',
+                url:'/adventurers', //may need to change
                 parent:'home',
                 templateUrl: "../views/about-adventurers.html"
             })
